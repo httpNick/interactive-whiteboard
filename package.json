@@ -1,0 +1,25 @@
+{
+  "name": "interactive-whiteboard",
+  "version": "1.0.0",
+  "description": "web app for interactive whiteboard.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/httpNick/interactive-whiteboard.git"
+  },
+  "author": "httpNick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/httpNick/interactive-whiteboard/issues"
+  },
+  "homepage": "https://github.com/httpNick/interactive-whiteboard#readme",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5"
+  }
+}
